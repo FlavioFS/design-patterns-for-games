@@ -12,7 +12,7 @@ Each pattern is separated in a dedicated folder, which contains:
 ## Goals
 | Pattern | Done |
 |-------|:-----------:|
-| Command | ![No](./icons/no.png) |
+| Command | ![Yes](./icons/yes.png) |
 | Flyweight | ![No](./icons/no.png) |
 | Observer | ![No](./icons/no.png) |
 | Prototype | ![No](./icons/no.png) |
