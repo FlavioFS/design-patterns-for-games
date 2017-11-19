@@ -18,11 +18,11 @@ When a class shares same attribute values among a huge amount of instances, it i
  - When performance is critical.
  - When profiler tells you to do so.
  - When a collection shares significant data among instances.
-  - When the game spawns a lot of minions.
-  - When the world has *over 9000* trees using same mesh and textures.
+    - When the game spawns a lot of minions.
+    - When the world has *over 9000* trees using same mesh and textures.
  - When the world is grid-based.
-  - When you are implementing a tilemap.
-  - When you are implementing a voxelmap.
+    - When you are implementing a tilemap.
+    - When you are implementing a voxelmap.
 
 ## Real Scenario
 ### Tilemap System
