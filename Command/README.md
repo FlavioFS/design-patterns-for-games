@@ -62,7 +62,7 @@ public interface ICommand
 }
 ```
 
- - Implement (several) desired commands  
+ 1. Implement (several) desired commands  
 ```
 class JumpCommand : ICommand
 {
@@ -86,7 +86,7 @@ class LightAttackCommand : ICommand
 }
 ```
 
- - Handle inputs through abstract interface  
+ 1. Handle inputs through abstract interface  
 ```
 class InputManager
 {
@@ -107,7 +107,7 @@ class InputManager
 }
 ```
 
- - Assign Commands dynamically  
+ 1. Assign Commands dynamically  
 ```
 InputManager inputManager = new Inputmanager ();
 ICommand currentButton;
