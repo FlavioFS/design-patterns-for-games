@@ -7,6 +7,8 @@
 ## Description
 A function encapsulated inside of an object.
 
+Turn a function into an object (using some predefined interface) so it can be manipulated in several ways.
+
 ## Similar Concepts
  - Callbacks
  - Function pointer
@@ -14,12 +16,12 @@ A function encapsulated inside of an object.
  - Partially applied function
 
 ## Roadmap
- 1. Define an interface for the Command. It should contain at least an *"execute()"* method.
- 1. For each desired command, create a class that implements Command interface. The actual method to be invoked should be inside the body of *"execute()"* method.
- 1. Invoke the method through the interface (not directly anymore).
+ 1. Define a common interface for all Commands. It should contain at least an *"execute()"* method.
+ 1. For each different command, create a class that implements Command interface. The actual function to be invoked (the encapsulated one) should be inside the body of *execute()*.
+ 1. Invoke the encapsulated function through the interface, by invoking *execute()* (not directly anymore).
 
 ## When should I use it?
- - When creation and execution of a request are no dependent on each other.
+ - When creation and execution of a request are not dependent on each other.
  - When you want to decouple **Invoker** from **Implementer**.
  - When you want to delegate the request to some third party entity.
  - When you want an asynchronous invocation.
