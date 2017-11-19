@@ -51,7 +51,7 @@ void ProcessInput (ref Player playerReference)
 }
 ```
 
-**Applying Command pattern**:
+### Applying Command pattern
 [Sources below also found here!](./src)
 
  1. Define a Command interface  
