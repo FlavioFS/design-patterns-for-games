@@ -1,7 +1,7 @@
 # Command
 
 ## Classification
-> Purpose: Behavioural
+> Purpose: Behavioural  
 > Scope: Object
 
 ## Description
@@ -32,7 +32,7 @@ A function encapsulated inside of an object.
 ### Editable User Input
 We need to code a configurable controller (the user can edit it through some "Options" menu) but the actions are coupled to gamepad logic, as seen below:
 
-![Gamepad buttons image](./img/gamepad.png)
+![Gamepad buttons image](./img/gamepad.png "Gamepad setup")
 
 ```
 void ProcessInput (ref Player playerReference)
