@@ -115,7 +115,7 @@ InputManager inputManager = new Inputmanager ();
 ICommand currentButton;
 Player player1 = new Player ();
 
-// Initializing Commands
+// Initializes Commands
 void Awake ()
 {
     inputManager.buttonA = new JumpCommand ();
