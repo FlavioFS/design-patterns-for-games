@@ -13,7 +13,7 @@ Each pattern is separated in a dedicated folder, which contains:
 | Pattern | Done |
 |-------|:-----------:|
 | [Command](./Command) | ![Yes](./icons/yes.png) |
-| Flyweight | ![No](./icons/no.png) |
+| [Flyweight](./Flyweight) | ![No](./icons/no.png) |
 | Observer | ![No](./icons/no.png) |
 | Prototype | ![No](./icons/no.png) |
 | Singleton | ![No](./icons/no.png) |
