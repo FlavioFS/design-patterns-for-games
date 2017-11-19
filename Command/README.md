@@ -34,7 +34,7 @@ We need to code a configurable controller (the user can edit it through some "Op
 
 ![Gamepad buttons image](./img/gamepad.png "Gamepad setup")
 
-```
+```csharp
 void ProcessInput (ref Player playerReference)
 {
     if (Input.GetKeyDown("BUTTON_A"))
@@ -55,7 +55,7 @@ void ProcessInput (ref Player playerReference)
 [Sources below also found here!](./src)
 
  1. Define a Command interface  
-```
+```csharp
 public interface ICommand
 {
     void execute (ref Player playerReference);
@@ -63,7 +63,7 @@ public interface ICommand
 ```
 
  2. Implement (several) desired commands  
-```
+```csharp
 class JumpCommand : ICommand
 {
     public void execute (ref Player playerReference) {
@@ -87,7 +87,7 @@ class LightAttackCommand : ICommand
 ```
 
  3. Handle inputs through abstract interface  
-```
+```csharp
 class InputManager
 {
     private ICommand buttonA;
@@ -108,7 +108,7 @@ class InputManager
 ```
 
  4. Assign Commands dynamically  
-```
+```csharp
 InputManager inputManager = new Inputmanager ();
 ICommand currentButton;
 Player player1 = new Player ();
