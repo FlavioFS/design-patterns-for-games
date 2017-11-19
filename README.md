@@ -21,5 +21,5 @@ Each pattern is separated in a dedicated folder, which contains:
 
 ## References
 1. [Game Programming Patterns](http://gameprogrammingpatterns.com), by Robert Nystrom
-- [C# Reference](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/index)
-- [Unity Scripting Reference](https://docs.unity3d.com/ScriptReference/index.html)
+1. [C# Reference](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/index)
+1. [Unity Scripting Reference](https://docs.unity3d.com/ScriptReference/index.html)

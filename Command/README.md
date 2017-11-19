@@ -15,8 +15,8 @@ A function encapsulated inside of an object.
 
 ## Roadmap
  1. Define an interface for the Command. It should contain at least an *"execute()"* method.
- - For each desired command, create a class that implements Command interface. The actual method to be invoked should be inside the body of *"execute()"* method.
- - Invoke the method through the interface (not directly anymore).
+ 1. For each desired command, create a class that implements Command interface. The actual method to be invoked should be inside the body of *"execute()"* method.
+ 1. Invoke the method through the interface (not directly anymore).
 
 ## When should I use it?
  - When creation and execution of a request are no dependent on each other.
