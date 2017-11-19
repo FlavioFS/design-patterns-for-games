@@ -18,7 +18,7 @@ Turn a function into an object (using some predefined interface) so it can be ma
 ## Roadmap
  1. Define a common interface for all Commands. It should contain at least an *"execute()"* method.
  1. For each different command, create a class that implements Command interface. The actual function to be invoked (the encapsulated one) should be inside the body of *execute()*.
- 1. Invoke the encapsulated function through the interface, by invoking *execute()* (not directly anymore).
+ 1. Invoke the encapsulated function through the interface, by invoking *execute()*.
 
 ## When should I use it?
  - When creation and execution of a request are not dependent on each other.
